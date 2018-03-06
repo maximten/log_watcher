@@ -1,0 +1,17 @@
+{
+    "smtp": {
+        "host": "smtp.example.com",
+        "port": 465,
+        "secure": true,
+        "auth": {
+            "user": "admin@example.com",
+            "pass": "password"
+        }
+    },
+    "mail": {
+        "from": "admin@example.com",
+        "to": "dev@example.com"
+    },
+    "project": "project",
+    "targetfile": "./error.txt"
+}
